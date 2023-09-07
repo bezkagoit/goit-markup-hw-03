@@ -1,0 +1,236 @@
+:root {
+  --c-brand: #4d5ae5;
+  --color-basic: #2e2f42;
+  --color-basic-light: #f4f4fd;
+  --color-hover: #404bbf;
+  --color-light: #ffffff;
+  --color-text: #434455;
+  --color-background: #fff;
+}
+
+/* Global styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-background);
+
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  margin: -1px;
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header */
+
+.logo {
+  color: var(--c-brand);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-part {
+  color: var(--color-basic);
+}
+
+.nav-link {
+  color: var(--color-basic);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+  color: var(--color-hover);
+}
+
+.nav-link:focus {
+  color: var(--color-hover);
+}
+
+.address-section {
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-text {
+  color: var(--color-text);
+}
+
+.address-text:hover {
+  color: var(--color-hover);
+}
+
+.address-text:focus {
+  color: var(--color-hover);
+}
+
+/* Hero section */
+.hero-section {
+  background-color: var(--color-basic);
+}
+
+.hero-title {
+  color: var(--color-light);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.hero-button {
+  background-color: var(--c-brand);
+  color: var(--color-light);
+  cursor: pointer;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover {
+  background-color: var(--color-hover);
+  color: var(--color-light);
+}
+
+.hero-button:focus {
+  background-color: var(--color-hover);
+  color: var(--color-light);
+}
+
+/* Advantages section */
+
+.advantage-title {
+  color: var(--color-basic);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.advantage-text {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Team section */
+
+.title-section {
+  background-color: var(--color-basic-light);
+  color: var(--color-basic);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-list {
+  background-color: var(--color-background);
+}
+
+.team-member {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-position {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio section */
+
+.portfolio-section {
+  background-color: var(--color-background);
+  color: var(--color-basic);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.portfolio-title {
+  color: var(--color-basic);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer section */
+
+.footer-section {
+  background-color: var(--color-basic);
+}
+
+.logo-footer {
+  color: var(--c-brand);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-part-down {
+  color: var(--color-basic-light);
+}
+
+.footer-text {
+  background-color: var(--color-basic);
+  color: var(--color-basic-light);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
