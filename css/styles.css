@@ -45,6 +45,7 @@ ul {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 /* Header */
@@ -63,8 +64,6 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 24px;
-  flex-grow: 1;
 }
 
 .header-contacts {
@@ -122,6 +121,8 @@ ul {
 }
 
 .address-section {
+  display: flex;
+  gap: 40px;
   font-style: normal;
   font-family: Roboto;
   font-size: 16px;
