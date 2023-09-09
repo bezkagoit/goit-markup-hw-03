@@ -63,6 +63,8 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 24px;
+  flex-grow: 1;
 }
 
 .header-contacts {
@@ -76,7 +78,6 @@ ul {
 }
 
 .logo {
-  margin-right: 76px;
   color: var(--c-brand);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -95,10 +96,6 @@ ul {
   gap: 40px;
   flex-grow: 1;
   justify-content: center;
-}
-
-.nav-item {
-  padding: 24px 0;
 }
 
 .nav-link {
@@ -120,8 +117,6 @@ ul {
 }
 
 .address-section {
-  display: flex;
-  gap: 40px;
   font-style: normal;
   font-family: Roboto;
   font-size: 16px;
