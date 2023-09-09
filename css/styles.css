@@ -278,7 +278,7 @@ ul {
 /* Portfolio section */
 
 .section {
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
 .portfolio-section {
@@ -297,14 +297,16 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
-  flex-basis: calc((100%-48px) / 6);
+  flex-basis: calc((100%-48px) / 3);
 }
 
 .portfolio {
-  margin: 0;
+  padding: 32px 16px;
+  border-top: none;
   background: var(--color-background);
   border: 1px solid var(--color-box);
 }
@@ -316,12 +318,12 @@ ul {
 
 .portfolio-title {
   margin: 0;
+  margin-bottom: 8px;
   color: var(--color-basic);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
 }
 
 .portfolio-text {
