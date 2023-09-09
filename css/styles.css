@@ -330,13 +330,7 @@ ul {
 
 .footer-section {
   background-color: var(--color-basic);
-}
-
-.footer-conteiner {
-  padding: 100px 0 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 100px 0;
 }
 
 .logo-footer {
