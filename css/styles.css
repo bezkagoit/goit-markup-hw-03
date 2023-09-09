@@ -41,7 +41,7 @@ ul {
   overflow: hidden;
 }
 
-.conteiner {
+.container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 156px;
@@ -215,11 +215,6 @@ ul {
   padding: 60px 0;
 }
 
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
 .team-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -229,9 +224,14 @@ ul {
   text-align: center;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-item {
   background-color: var(--color-background);
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team {
@@ -333,16 +333,15 @@ ul {
 }
 
 .footer-conteiner {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 101.5px 0 100px 156px;
+  padding: 100px 0 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .logo-footer {
-  padding-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--c-brand);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
