@@ -88,12 +88,12 @@ ul {
   gap: 40px;
   /* flex-grow: 1;
   justify-content: center; */
-  padding: 24px 0;
 }
 
-/*.nav-item {
-  padding: 24px 0;
-}*/
+.nav-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .nav-link {
   display: inline-block;
