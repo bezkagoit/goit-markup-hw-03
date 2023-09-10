@@ -86,8 +86,8 @@ ul {
 .nav-list {
   display: flex;
   gap: 40px;
-  flex-grow: 1;
-  justify-content: center;
+  /* flex-grow: 1;
+  justify-content: center; */
 }
 
 .nav-item {
