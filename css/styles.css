@@ -67,11 +67,6 @@ ul {
   flex-grow: 1;
 }
 
-.header-contacts {
-  display: flex;
-  gap: 40px;
-}
-
 .logo {
   display: flex;
   margin-right: 76px;
@@ -101,7 +96,6 @@ ul {
 
 .nav-link {
   display: inline-block;
-
   color: var(--color-basic);
   font-size: 16px;
   font-weight: 500;
