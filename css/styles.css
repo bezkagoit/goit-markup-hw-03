@@ -90,12 +90,14 @@ ul {
   justify-content: center; */
 }
 
-.nav-item {
+/*.nav-item {
   padding-top: 24px;
   padding-bottom: 24px;
-}
+}*/
 
 .nav-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: inline-block;
   color: var(--color-basic);
   font-size: 16px;
